@@ -20,6 +20,7 @@ public class TestDaoImpl implements TestDao {
 			str= rs.getString(1);
 		}
 		System.out.println(str);
+		System.out.println("ss");
 		return "hello springmvc";
 	}
 
